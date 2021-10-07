@@ -62,3 +62,30 @@ input[type = email]:active {
     background-color: rgb(163, 163, 163);
     border-radius: 8px;
 }
+
+@media (max-width:543px) {
+    .oklama {
+    background-image: url(https://w0.peakpx.com/wallpaper/165/51/HD-wallpaper-kendrick-lamar-aesthetic-dna-hip-hop-humble-modern-rap-new-school-rap-thumbnail.jpg);
+    height: 100vh;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    flex-direction: column;
+    }
+
+    h1 {
+        color: rgb(158, 158, 158);
+        letter-spacing: 8px;
+        font-family: 'Permanent Marker', cursive;
+        text-transform: uppercase;
+    }
+
+    label {
+        color: rgb(170, 170, 170);
+        font-family: 'Playfair Display', serif;
+        margin: 2em;
+    }
+}
