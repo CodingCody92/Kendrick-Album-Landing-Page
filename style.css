@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.oklama {
+    background-image: url(https://www.baltimoresun.com/resizer/vtoGhvGMwzw1Y_C2q5mEoGpBpB4=/1200x0/top/www.trbimg.com/img-5593164e/turbine/la-et-ms-kendrick-lamar-takes-flight-in-new-alright-video-20150630);
+    height: 100vh;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    flex-direction: column;
+}
+
+h1 {
+    color: white;
+    letter-spacing: 8px;
+    font-family: 'Permanent Marker', cursive;
+    text-transform: uppercase;
+}
+
+.coming-soon {
+    margin: 4em;
+}
+
+label {
+    font-family: 'Playfair Display', serif;
+}
+
+input[type = email] {
+    border-radius: 8px;
+    width: 200px;
+    color: white;
+    padding: 4px;
+    background-color:rgba(116, 116, 116, 0.377) ;
+}
+
+input[type = email]:active {
+   border-color: yellowgreen;
+}
+
+.btn {
+    padding: 3px;
+    border: none;
+    background: rgba(150, 150, 150, 0.3);
+    position: relative;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+.btn:hover {
+    background-color: rgb(163, 163, 163);
+    border-radius: 8px;
+}
